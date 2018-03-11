@@ -1,0 +1,32 @@
+{
+  "name": "redux-play",
+  "version": "1.0.0",
+  "description": "redux play foobar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack && cp src/index.html dist/"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "foo"
+  ],
+  "author": "brunops",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-static": "^1.2.5",
+    "morgan": "^1.9.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "standard": "^11.0.0",
+    "webpack": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "webpack-cli": "^2.0.11"
+  }
+}
